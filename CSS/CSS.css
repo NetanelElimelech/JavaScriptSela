@@ -1,0 +1,59 @@
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.boxHover:hover {
+    border: 2px solid rgb(228, 11, 11);
+}
+
+.canvas {
+    width: 800px;
+    text-align: center;
+    overflow: auto;
+    padding-top: 4px;
+}
+
+.canvasButton {
+    height: 100px;
+}
+
+#turnSelector, #display {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+    background-color: coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+}
+
+.button {
+    background-color: rgb(83, 198, 244); /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.shadow:hover {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
